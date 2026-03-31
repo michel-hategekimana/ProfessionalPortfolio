@@ -3,9 +3,8 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 const ContactSection = () => {
   return (
-    <section className="py-20 px-6 bg-white">
-      <div className="max-w-6xl mx-auto">
-        {/* Header Section */}
+    <section className="pt-30 pb-20 px-6 bg-slate-50">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-serif font-bold text-slate-900 mb-6">
             Let's Work Together
@@ -17,8 +16,7 @@ const ContactSection = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          
-          {/* Left Side: Contact Info */}
+
           <div className="space-y-8">
             <h3 className="text-2xl font-serif font-bold text-slate-900 mb-8">Get In Touch</h3>
             
@@ -28,7 +26,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-slate-900">Email</p>
-                <p className="text-slate-600">michel.steven@example.com</p>
+                <p className="text-slate-600">michelhategekimana127@gmail.com</p>
               </div>
             </div>
 
@@ -38,7 +36,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-slate-900">Phone</p>
-                <p className="text-slate-600">+1 (555) 123-4567</p>
+                <p className="text-slate-600">+250795373185</p>
               </div>
             </div>
 
@@ -51,8 +49,6 @@ const ContactSection = () => {
                 <p className="text-slate-600">Available for remote work worldwide</p>
               </div>
             </div>
-
-            {/* Availability Box */}
             <div className="mt-12 p-8 bg-blue-50 rounded-2xl border border-blue-100">
               <h4 className="font-bold text-slate-900 mb-2">Current Availability</h4>
               <p className="text-slate-600 text-sm leading-relaxed">
@@ -61,8 +57,6 @@ const ContactSection = () => {
               </p>
             </div>
           </div>
-
-          {/* Right Side: Form */}
           <div className="bg-white p-8 md:p-10 rounded-3xl shadow-xl shadow-slate-100 border border-slate-100">
             <form className="space-y-6">
               <div>

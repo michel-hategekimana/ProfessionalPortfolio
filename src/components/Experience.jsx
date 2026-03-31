@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import { Code2, Paintbrush, Database } from 'lucide-react';
 
@@ -24,7 +26,7 @@ const skillCategories = [
 
 const SkillsSection = () => {
   return (
-    <section className="py-20 px-6 bg-slate-50">
+    <section className="pt-30 pb-20 px-6 bg-slate-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">My Skills</h2>
@@ -32,11 +34,10 @@ const SkillsSection = () => {
             The technologies and tools I use to bring ideas to life on the web.
           </p>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
@@ -48,7 +49,6 @@ const SkillsSection = () => {
               <p className="text-slate-600 text-sm mb-6">
                 {category.description}
               </p>
-              
               <ul className="space-y-3">
                 {category.skills.map((skill, skillIndex) => (
                   <li key={skillIndex} className="flex items-center text-slate-700 font-medium">
