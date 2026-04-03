@@ -6,6 +6,7 @@ import Experience from "./components/Experience"
 import Project from "./components/Project"
 import Contact from "./components/Contact"
 import HomePage from "./pages/HomePage"
+import BlogSection from "./components/BlogSection"
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       
         
       </Route>
+      <Route path="/blog" element={<BlogSection />} />
     </Routes>
    </BrowserRouter>
   )

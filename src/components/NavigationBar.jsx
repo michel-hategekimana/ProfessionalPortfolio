@@ -18,7 +18,9 @@ const NavigationBar = () => {
           <li className="hover:text-blue-600"><Link to="/about">About</Link></li>
           <li className="hover:text-blue-600"><Link to="/experience">Skills</Link></li>
           <li className="hover:text-blue-600"><Link to="/project">Projects</Link></li>
+          <li className="hover:text-blue-600"><Link to="/blog">Blog</Link></li>
           <li className="hover:text-blue-600"><Link to="/contact">Contact</Link></li>
+
         </ul>
 
         <Link to={"/contact"} className="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-xl">
@@ -39,6 +41,8 @@ const NavigationBar = () => {
             <li onClick={() => setIsOpen(false)}><Link to="/experience">Experience</Link></li>
             <li onClick={() => setIsOpen(false)}><Link to="/project">Projects</Link></li>
             <li onClick={() => setIsOpen(false)}><Link to="/contact">Contact</Link></li>
+            <li onClick={() => setIsOpen(false)}><Link to="/blog">Blog</Link></li>
+
             <button className="bg-blue-600 text-white px-6 py-2 rounded-xl">
               Hire me
             </button>
